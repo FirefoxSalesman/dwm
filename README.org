@@ -15,5 +15,10 @@ DWM without all the things that allow it to function. This is not a good fork, I
 - A lot of asthetic tweaks
 - Wrangles your mouse for you
 
+* Install
+#+BEGIN_SRC bash
+sudo make clean install
+#+END_SRC
+
 * Dependencies:
 Technically the same as dwm, but you'll want a hotkey daemon (like sxhkd), pkill (or a similar program) to kill dwm, & something to kill your windows with (I have a script for that, bound to a hotkey)
