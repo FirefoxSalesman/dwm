@@ -1,0 +1,19 @@
+* HolscherHead's dwm fork
+DWM without all the things that allow it to function. This is not a good fork, I just made it because I could.
+
+* Features removed from the suckless version:
+- Keybindings support
+- The ability to drag floating windows around, making the floating layout basically useless. This was an accident, but I don't care, because I don't usually float any windows.
+- The ability to kill a window
+- The ability to kill the window manager
+
+* Features added:
+- Xresources: A just-works variant that reads whatever colours you have set. Plays nicely with pywal. Almost everything can be set from here
+- dwmc patch: Everything is scriptable now
+- gaps: Because why not? Can be set from Xresources. Plays nicely with monocle & deck
+- deck layout
+- A lot of asthetic tweaks
+- Wrangles your mouse for you
+
+* Dependencies:
+Technically the same as dwm, but you'll want a hotkey daemon (like sxhkd), pkill (or a similar program) to kill dwm, & something to kill your windows with (I have a script for that, bound to a hotkey)
